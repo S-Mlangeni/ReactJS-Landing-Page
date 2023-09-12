@@ -1,0 +1,84 @@
+/* Footer */
+.Footer {
+    background-color: #430964;
+    padding: 80px;
+}
+
+.headingWrapper4 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.headingWrapper4 .Rectangle {
+    background-image: url(../../../assets/img/Section1/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 4px;
+    width: 40px;
+}
+
+.headingWrapper4 p {
+    font-size: 24px;
+    color: white;
+}
+
+.subWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.subWrapper .Containter1 {
+    max-width: 455px;
+
+}
+
+.subWrapper .Containter1 h2 {
+    font-size: 40px;
+    color: #F5F5F5;
+    text-align: start;
+
+}
+
+.subWrapper .Containter2 p {
+    color: white;
+    text-align: start;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.linkWrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px 20px;
+}
+
+.linkWrapper p,a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px;
+    text-align: start;
+}
+
+.linkWrapper a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+    .subWrapper {
+        flex-direction: column;
+    }
+
+    .subWrapper .Containter2 {
+        margin-bottom: 33.2px;
+    }
+
+    .linkWrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

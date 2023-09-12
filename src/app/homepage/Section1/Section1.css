@@ -1,0 +1,83 @@
+/* Section1 */
+.Section1 {
+    padding: 80px;
+}
+
+.headingWrapper1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.headingWrapper1 .Rectangle {
+    background-image: url(../../../assets/img/Section1/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 4px;
+    width: 40px;
+}
+
+.headingWrapper1 p {
+    font-size: 24px;
+}
+
+.Section1 h1 {
+    color: #242424;
+    font-size: 48px;
+    text-align: start;
+}
+
+.serviceWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px 40px
+}
+
+.serviceWrapper .Icon {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+    align-self: self-start;
+}
+
+.first {
+    background-image: url(../../../assets/img/Section1/Web\ Dev\ Icon.png);
+}
+
+.second {
+    background-image: url(../../../assets/img/Section1/UX\ Icon.png);
+}
+
+.third {
+    background-image: url(../../../assets/img/Section1/App\ Dev\ Icon.png);
+}
+
+.fourth {
+    background-image: url(../../../assets/img/Section1/icon.png);
+}
+
+.serviceWrapper .Block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceWrapper .Block h4 {
+    font-size: 24px;
+    align-self: self-start;
+    text-align: start;
+
+}
+
+.serviceWrapper .Block p {
+    font-size: 20px;
+    text-align: start;
+    margin-top: 0px;
+}
+
+@media (max-width: 991px) {
+    .serviceWrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

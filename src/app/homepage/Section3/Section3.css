@@ -1,0 +1,112 @@
+/* Section 3 */
+.Section3 {
+    padding: 80px;
+}
+
+.headingWrapper3 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.headingWrapper3 .Rectangle {
+    background-image: url(../../../assets/img/Section1/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 4px;
+    width: 40px;
+}
+
+.headingWrapper3 p {
+    font-size: 24px;
+}
+
+.Section3 h1 {
+    color: #242424;
+    font-size: 48px;
+    text-align: start;
+}
+
+.brandWrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.brandWrapper .Block {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+}
+
+.one {
+    background-image: url(../../../assets/img/Section3/Brand.png);
+}
+
+.two {
+    background-image: url(../../../assets/img/Section3/Brand.jpg);
+}
+
+.three {
+    background-image: url(../../../assets/img/Section3/Brand\ \(1\).jpg);
+}
+
+.four {
+    background-image: url(../../../assets/img/Section3/Brand\ \(2\).jpg);
+}
+
+.five {
+    background-image: url(../../../assets/img/Section3/Brand\ \(3\).jpg);
+}
+
+.six {
+    background-image: url(../../../assets/img/Section3/Frame\ 4.jpg);
+}
+
+.seven {
+    background-image: url(../../../assets/img/Section3/Frame\ 5.jpg);
+}
+
+.eight {
+    background-image: url(../../../assets/img/Section3/Frame\ 6.jpg);
+}
+
+.nine {
+    background-image: url(../../../assets/img/Section3/Frame\ 7.jpg);
+}
+
+.ten {
+    background-image: url(../../../assets/img/Section3/Frame\ 8.jpg);
+}
+
+.eleven {
+    background-image: url(../../../assets/img/Section3/Brand\ \(4\).jpg);
+}
+
+.twelve {
+    background-image: url(../../../assets/img/Section3/Brand\ \(5\).jpg);
+}
+
+.thirteen {
+    background-image: url(../../../assets/img/Section3/Brand\ \(6\).jpg);
+}
+
+.fourteen {
+    background-image: url(../../../assets/img/Section3/Brand\ \(7\).jpg);
+}
+
+.fifteen {
+    background-image: url(../../../assets/img/Section3/Brand\ \(8\).jpg);
+}
+
+@media (max-width: 1439px) {
+    .brandWrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 991px) {
+    .brandWrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

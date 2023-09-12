@@ -1,0 +1,144 @@
+/* Header */
+body {
+    overflow-x: hidden;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #70259B;
+    height: 80px;
+    padding: 0px 80px;
+}
+
+.Nav .Logo {
+    background-image: url(../.././../assets/img/Header/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30.77px;
+    width: 100px;
+}
+
+.Nav ul {
+    list-style-type: none;
+    display: flex;
+    color: white;
+}
+
+.Nav a {
+    padding: 8px 16px 8px 16px;
+    font-size: 14px;
+}
+
+.Nav a:hover {
+    text-decoration: underline;
+}
+
+.Nav button {
+    height: 37px;
+    width: 96px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: #70259B;
+    border: none;
+}
+
+.Nav button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.burgermenu {
+    display: none;
+}
+
+.Banner {
+    background-image: url(../../../assets/img/Header/Hero\ Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.Banner .bannerElements {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 80px;
+}
+
+.Banner h1 {
+    color: #FAFAFA;
+    font-size: 48px;
+    text-align: start;
+}
+
+.Banner p {
+    color: #F5F5F5;
+    font-size: 20px;
+    text-align: start;
+    margin-top: 0px;
+    margin-bottom: 32.16px;
+}
+
+.Banner button {
+    height: 41px;
+    width: 127px;
+    border-radius: 25px;
+    font-size: 14px;
+    color: white;
+    background-color: #70259B;
+    border: none;
+}
+
+.Banner button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+    .Nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        background-color: #70259B;
+        margin: 0px;
+        padding: 0px 80px;
+    }
+
+    .Nav li {
+        margin-bottom: 21.5px;
+    }
+
+    .Nav button {
+        position: absolute;
+        top: 250px;
+        right: 0px;
+        border-radius: 0px;
+        border: none;
+        width: 250px;
+    }
+
+    .burgermenu {
+        display: block;
+        height: 37px;
+        width: 96px;
+        border-radius: 50px;
+        font-size: 14px;
+        color: #70259B;
+        position: absolute;
+        top: 21.5px;
+        right: 80px;
+    }
+
+    .burgermenu:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}

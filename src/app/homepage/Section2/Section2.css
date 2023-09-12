@@ -1,0 +1,56 @@
+/* Section 2 */
+.Section2 {
+    padding: 0px 80px;
+}
+
+.headingWrapper2 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.Rectangle {
+    background-image: url(../../../assets/img/Section2/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 4px;
+    width: 40px;
+}
+
+.headingWrapper2 p {
+    font-size: 24px;
+}
+
+.studyWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39.84px;
+}
+
+.studyWrapper .Study {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 351px;
+    max-width: 351px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 24px
+}
+
+.Study p,h3 {
+    color: white;
+    margin: 0px;
+    margin-top: 24px;
+    text-align: start;
+}
+
+.Study h3 {
+    font-size: 32px;
+}
+
+.Study p {
+    font-size: 16px;
+}
